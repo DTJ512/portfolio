@@ -1,0 +1,151 @@
+.education {
+  padding: 6rem 0;
+  background-color: var(--bg-light);
+}
+
+.education-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 3rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 1.5rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, var(--primary-color), var(--secondary-color));
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-left: 3rem;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -2.5rem;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.2rem;
+  box-shadow: 0 5px 15px rgba(99, 102, 241, 0.3);
+  z-index: 1;
+}
+
+.timeline-content {
+  background-color: var(--bg-color);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dark .timeline-content {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.timeline-content:hover {
+  transform: translateX(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.dark .timeline-content:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.edu-degree {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.edu-school {
+  font-size: 1.1rem;
+  color: var(--primary-color);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.edu-period {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  background-color: var(--bg-light);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.edu-gpa {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  background-color: var(--bg-light);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+.edu-description {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.edu-description li {
+  padding-left: 1.5rem;
+  position: relative;
+  color: var(--text-light);
+  line-height: 1.8;
+  margin-bottom: 0.5rem;
+}
+
+.edu-description li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .education {
+    padding: 4rem 0;
+  }
+
+  .timeline {
+    padding-left: 2rem;
+  }
+
+  .timeline::before {
+    left: 1rem;
+  }
+
+  .timeline-item {
+    padding-left: 2rem;
+  }
+
+  .timeline-marker {
+    left: -1.5rem;
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+}
+

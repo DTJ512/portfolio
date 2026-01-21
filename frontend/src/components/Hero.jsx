@@ -32,7 +32,7 @@ const Hero = () => {
                 Get In Touch
               </button>
               <a 
-                href="/DoTuanDuy_CV.pdf" 
+                href={`${import.meta.env.BASE_URL}DoTuanDuy_CV.pdf`}
                 download 
                 className="btn btn-secondary"
                 style={{ textDecoration: 'none', display: 'inline-flex' }}
@@ -52,7 +52,7 @@ const Hero = () => {
           <div className="hero-image">
             <div className="avatar-container">
               <img 
-                src="/images/avatar.jpeg" 
+                src={`${import.meta.env.BASE_URL}images/avatar.jpeg`}
                 alt="Avatar" 
                 className="avatar-image"
               />

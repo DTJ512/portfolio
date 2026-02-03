@@ -127,7 +127,7 @@ function About() {
             <div className="hero-image-container">
               <div className="hero-image">
                 <img 
-                  src="/avatar.jpg" 
+                  src={`${import.meta.env.BASE_URL}avatar.jpg`}
                   alt={t('about.name')}
                   onError={(e) => {
                     e.target.style.display = 'none';

@@ -1,0 +1,206 @@
+{
+  "hero_vn": {
+    "greeting": "Xin chào, tôi là",
+    "name": "ĐỒ TUẤN DUY",
+    "intro": "Tôi mong muốn gia nhập một tổ chức phát triển sản phẩm, ứng dụng AI và dữ liệu để giải quyết các bài toán kinh doanh và vận hành thực tế. Tôi tập trung xây dựng các hệ thống tự động hóa và hỗ trợ ra quyết định, giúp giảm công việc thủ công, nâng cao hiệu quả và tạo tác động kinh doanh đo lường được, với ownership end-to-end."
+  },
+  "hero_en": {
+    "greeting": "Hi, I'm",
+    "name": "DO TUAN DUY",
+    "intro": "I seek to join a product-driven organization applying AI and data to solve real business and operational problems. I aim to build and scale AI-powered automation and decision-support systems that reduce manual effort, improve efficiency, and deliver measurable business impact, while taking full ownership end to end."
+  },
+  "expertise_vn": [
+    {
+      "title": "Hệ thống tự động hóa AI",
+      "description": "Hệ thống tự động hóa và hỗ trợ ra quyết định ứng dụng AI cho vận hành thực tế",
+      "icon": "🤖"
+    },
+    {
+      "title": "Thiết kế giải pháp AI",
+      "description": "Thiết kế giải pháp AI end-to-end từ xác định bài toán đến triển khai production",
+      "icon": "💡"
+    },
+    {
+      "title": "Công cụ nội bộ",
+      "description": "Công cụ nội bộ và nền tảng workflow hỗ trợ nâng cao năng suất cho các team kinh doanh",
+      "icon": "🛠️"
+    },
+    {
+      "title": "Kiến trúc dữ liệu & AI",
+      "description": "Kiến trúc dữ liệu và AI có khả năng mở rộng, phù hợp với yêu cầu vận hành",
+      "icon": "🏗️"
+    },
+    {
+      "title": "Tác động kinh doanh",
+      "description": "Tạo tác động kinh doanh đo lường được thông qua nâng cao hiệu quả và tối ưu chi phí",
+      "icon": "📈"
+    }
+  ],
+  "expertise_en": [
+    {
+      "title": "AI Automation Systems",
+      "description": "AI-powered automation and decision-support systems for real operations",
+      "icon": "🤖"
+    },
+    {
+      "title": "AI Solution Design",
+      "description": "End-to-end AI solution design from problem framing to production delivery",
+      "icon": "💡"
+    },
+    {
+      "title": "Internal Tools",
+      "description": "Internal tools and workflow platforms enabling business team productivity",
+      "icon": "🛠️"
+    },
+    {
+      "title": "Data & AI Architecture",
+      "description": "Scalable data and AI architectures aligned with operational requirements",
+      "icon": "🏗️"
+    },
+    {
+      "title": "Business Impact",
+      "description": "Measurable business impact through efficiency gains and cost optimization",
+      "icon": "📈"
+    }
+  ],
+  "experience_vn": [
+    {
+      "period": "07/2025 - Hiện tại",
+      "title": "AI Solution",
+      "company": "ONE Group",
+      "description": "Chịu trách nhiệm end-to-end việc triển khai các giải pháp dữ liệu, phân tích và tự động hóa dựa trên AI cho marketing, bán hàng và vận hành. Mang lại tác động kinh doanh có thể đo lường bằng cách chuyển hóa các năng lực AI và dữ liệu phức tạp thành giảm chi phí, tăng trưởng doanh thu và nâng cao hiệu quả vận hành ở quy mô lớn.",
+      "achievements": [
+        "↓ 85% vận hành thủ công | ↓ 25% chi phí Ads — Tự động hóa đề xuất và tối ưu ngân sách quảng cáo cho 13 team marketing với logic gợi ý phân bố chi tiêu",
+        "↓ 95% khối lượng QA cuộc gọi — Hệ thống đánh giá chất lượng cuộc gọi & coaching bằng AI sử dụng Gemini AI",
+        "Phân tích kinh doanh real-time — Chatbot phân tích ngôn ngữ tự nhiên (MCP + BigQuery) bao phủ doanh thu, chi phí quảng cáo, tồn kho và chỉ số bán hàng",
+        "Báo cáo dựa trên LLM — Tự động hóa báo cáo tuần/tháng kèm insight theo ngữ cảnh và khuyến nghị hành động",
+        "↓ 30–40% rủi ro thiếu hàng — Cảnh báo thiếu tồn kho dựa trên tốc độ bán và lead time",
+        "~40% hỗ trợ ideation — Nền tảng AI hỗ trợ lập kế hoạch sự kiện & nội dung cho dự án \"BĐS Thuận Việt\", đóng góp X tỷ VND doanh thu",
+        "Enablement AI & tự động hóa nội bộ — Xây dựng công cụ và workflow nội bộ hỗ trợ team Data và các team kinh doanh, nâng cao năng suất và hiệu quả phối hợp liên phòng ban"
+      ]
+    },
+    {
+      "period": "07/2024 - 03/2025",
+      "title": "Customer Success Engineer (AI & Data Automation)",
+      "company": "Gcalls",
+      "description": "Phát triển các giải pháp tuyển dụng ứng dụng AI bao phủ chatbot tương tác, dịch vụ backend, data pipeline và các công cụ phục vụ nghiệp vụ.",
+      "achievements": [
+        "↓ 80% thời gian phản hồi — Chatbot tư vấn tuyển dụng bằng AI tích hợp ZaloOA cho tương tác ứng viên theo thời gian thực",
+        "↓ 60% xử lý thủ công — Nền tảng sàng lọc CV bằng AI, tự động đánh giá CV từ Zalo theo mô tả công việc (JD), xếp hạng ứng viên và tổng hợp kết quả vào Web App tập trung cho recruiter",
+        "Cải thiện khả năng sử dụng cho nghiệp vụ — Trực quan hóa dữ liệu tuyển dụng và dữ liệu khách hàng cho các team kinh doanh bằng công cụ dữ liệu low-code",
+        "↓ ~95% cập nhật thủ công | Không mất dữ liệu — Tự động đồng bộ dữ liệu tuyển dụng bằng xử lý hàng đợi Redis Queue, đồng thời thực hiện ETL migration ổn định từ MongoDB 4.2 sang MongoDB 8.0 & PostgreSQL"
+      ]
+    }
+  ],
+  "experience_en": [
+    {
+      "period": "Jul 2025 - Present",
+      "title": "AI Solution",
+      "company": "ONE Group",
+      "description": "Owned end-to-end delivery of AI-driven data, analytics, and automation across marketing, sales, and operations. Delivered measurable business impact by translating complex data and AI capabilities into cost reduction, revenue growth, and operational efficiency at scale.",
+      "achievements": [
+        "85% ↓ manual ops | 25% ↓ Ads cost — Automated ads budget top-up & optimization for 13 marketing teams with spend-recommendation logic",
+        "95% ↓ call QA workload — AI-powered call quality evaluation & coaching using Gemini AI",
+        "Real-time business analytics — Natural-language analytics chatbot (MCP + BigQuery) covering revenue, ads spend, inventory, and sales metrics",
+        "LLM-driven reporting — Automated weekly/monthly reports with contextual insights and action recommendations",
+        "30–40% ↓ stock-out risk — Inventory shortage alerts based on sales velocity and lead time",
+        "~40% ideation support — AI-assisted event planning & content platform for the \"BDS Thuận Việt\" project, contributing to X billion VND in revenue",
+        "Internal AI & automation enablement — Built internal tools and workflows to support Data and business teams, improving productivity and cross-team efficiency"
+      ]
+    },
+    {
+      "period": "Jul 2024 - Mar 2025",
+      "title": "Customer Success Engineer (AI & Data Automation)",
+      "company": "Gcalls",
+      "description": "Developed AI-powered recruitment solutions across chatbot interaction, backend services, data pipelines, and business-facing tools.",
+      "achievements": [
+        "80% ↓ response time — AI recruitment consulting chatbot integrated with ZaloOA for real-time candidate interaction",
+        "60% ↓ manual processing — AI-powered CV screening platform that automatically evaluates CVs from Zalo against job descriptions (JD), ranks candidates, and aggregates results into a centralized Web App for recruiters",
+        "Improved business usability — Visualized recruitment and customer data for business teams using low-code data tools",
+        "~95% ↓ manual updates | Zero data loss — Automated recruitment data synchronization using Redis Queue-based processing and executed reliable ETL migration from MongoDB 4.2 to MongoDB 8.0 & PostgreSQL"
+      ]
+    }
+  ],
+  "skills_vn": [
+    {
+      "title": "Backend & Lập trình",
+      "skills": [
+        "Python (FastAPI, Flask, Pandas)",
+        "JavaScript (Node.js, with n8n)"
+      ]
+    },
+    {
+      "title": "Frontend",
+      "skills": [
+        "React.js",
+        "React Router",
+        "Axios"
+      ]
+    },
+    {
+      "title": "Dữ liệu & Cơ sở dữ liệu",
+      "skills": [
+        "SQL (PostgreSQL, BigQuery)",
+        "NoSQL (MongoDB, NocoDB)"
+      ]
+    },
+    {
+      "title": "Tự động hóa & Tích hợp",
+      "skills": [
+        "n8n",
+        "Google Apps Script",
+        "Webhooks"
+      ]
+    },
+    {
+      "title": "Hệ thống AI & LLM",
+      "skills": [
+        "MCP",
+        "RAG",
+        "Prompt Engineering",
+        "Context & Action Design"
+      ]
+    }
+  ],
+  "skills_en": [
+    {
+      "title": "Backend & Programming",
+      "skills": [
+        "Python (FastAPI, Flask, Pandas)",
+        "JavaScript (Node.js, with n8n)"
+      ]
+    },
+    {
+      "title": "Frontend",
+      "skills": [
+        "React.js",
+        "React Router",
+        "Axios"
+      ]
+    },
+    {
+      "title": "Data & Databases",
+      "skills": [
+        "SQL (PostgreSQL, BigQuery)",
+        "NoSQL (MongoDB, NocoDB)"
+      ]
+    },
+    {
+      "title": "Automation & Integration",
+      "skills": [
+        "n8n",
+        "Google Apps Script",
+        "Webhooks"
+      ]
+    },
+    {
+      "title": "AI & LLM Systems",
+      "skills": [
+        "MCP",
+        "RAG",
+        "Prompt Engineering",
+        "Context & Action Design"
+      ]
+    }
+  ]
+}

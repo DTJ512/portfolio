@@ -1,0 +1,86 @@
+{
+  "projects_vn": [
+    {
+      "title": "AI đánh giá cuộc gọi",
+      "description": "Ứng dụng AI vào phân tích nội dung cuộc gọi của sale và cskh để đánh giá chất lượng cuộc gọi và tối ưu hoạt động kinh doanh",
+      "tags": ["AI", "Automation"],
+      "link": ""
+    }, 
+    {
+      "title": "Đề xuất chi phí Ads",
+      "description": "Xây dựng hệ thống tự động hóa đánh giá chất lượng kinh doanh và đề xuất chi phí Ads cho team marketing",
+      "tags": ["Data Analysis", "Automation"],
+      "link": ""
+    },
+    {
+      "title": "Chatbot báo cáo kinh doanh",
+      "description": "Tích hợp Chatbot với MCP và BigQuery trả lời các câu hỏi kinh doanh và phân tích dữ liệu",
+      "tags": ["AI", "Data Analysis", "MCP"],
+      "link": ""
+    },
+    {
+      "title": "Tự động hóa cảnh báo tình hình kinh doanh",
+      "description": "Cảnh báo Telegram với các đầu mục: Số lượng hàng tồn kho, trạng thái vận chuyển, digital chạy vượt ngân sách được cấp",
+      "tags": ["Data Analysis", "Automation"],
+      "link": ""
+    },
+    {
+      "title": "Hệ thống đề xuất tổ chức sự kiện với AI",
+      "description": "Hỗ trợ phân tích, gợi ý tổ chức sự kiện với AI, tạo nội dung, ảnh, video, slide cho sự kiện",
+      "tags": ["AI", "Event Planning"],
+      "link": ""
+    },
+    {
+      "title": "Chatbot và hệ thống đánh giá CV",
+      "description": "Tích hợp chatbot với ZaloOA và hệ thống đánh giá CV",
+      "tags": ["AI", "Automation"],
+      "link": ""
+    }
+  ],
+  "projects_en": [
+    {
+      "title": "AI Call Evaluation",
+      "description": "AI application for analyzing sales and customer service call content to evaluate call quality and optimize business operations",
+      "tags": ["AI", "Automation"],
+      "link": ""
+    },
+    {
+      "title": "Ads Budget Recommendation",
+      "description": "Building an automated system to evaluate business quality and recommend Ads costs for marketing teams",
+      "tags": ["Data Analysis", "Automation"],
+      "link": ""
+    },
+    {
+      "title": "Business Report Chatbot",
+      "description": "Integrating Chatbot with MCP and BigQuery to answer business questions and analyze data",
+      "tags": ["AI", "Data Analysis", "MCP"],
+      "link": ""
+    },
+    {
+      "title": "Automated Business Alert System",
+      "description": "Telegram alerts for: Inventory levels, shipping status, digital spending exceeding allocated budget",
+      "tags": ["Data Analysis", "Automation"],
+      "link": ""
+    },
+    {
+      "title": "AI-Powered Event Planning System",
+      "description": "AI-assisted analysis and recommendations for event planning, content creation, images, videos, and slides for events",
+      "tags": ["AI", "Event Planning"],
+      "link": ""
+    },
+    {
+      "title": "Chatbot and CV Evaluation System",
+      "description": "Integrating chatbot with ZaloOA and CV evaluation system",
+      "tags": ["AI", "Automation"],
+      "link": ""
+    }
+  ],
+  "viewMore_vn": {
+    "text": "Xem thêm →",
+    "link": ""
+  },
+  "viewMore_en": {
+    "text": "View More →",
+    "link": ""
+  }
+}

@@ -1,29 +1,33 @@
-import React from 'react'
-import { ThemeProvider } from './contexts/ThemeContext'
-import Header from './components/Header'
-import Hero from './components/Hero'
-import About from './components/About'
-import Skills from './components/Skills'
-import Experience from './components/Experience'
-import Education from './components/Education'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+import { LanguageProvider } from './contexts/LanguageContext'
+import Navigation from './components/Navigation'
+import About from './pages/About'
+import Project from './pages/Project'
+import Tools from './pages/Tools'
+import Contact from './pages/Contact'
 import './App.css'
 
 function App() {
   return (
-    <ThemeProvider>
-      <div className="App">
-        <Header />
-        <Hero />
-        <About />
-        <Skills />
-        <Experience />
-        <Education />
-        <Projects />
-        <Contact />
-      </div>
-    </ThemeProvider>
+    <LanguageProvider>
+      <Router>
+        <div className="app">
+          <Navigation />
+          <main className="main-content">
+            <Routes>
+              <Route path="/portfolio" element={<About />} />
+              <Route path="/portfolio/" element={<About />} />
+              <Route path="/portfolio/about" element={<About />} />
+              <Route path="/portfolio/project" element={<Project />} />
+              <Route path="/portfolio/tool" element={<Tools />} />
+              <Route path="/portfolio/contact" element={<Contact />} />
+              <Route path="/" element={<Navigate to="/portfolio" replace />} />
+              <Route path="*" element={<Navigate to="/portfolio" replace />} />
+            </Routes>
+          </main>
+        </div>
+      </Router>
+    </LanguageProvider>
   )
 }
 

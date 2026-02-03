@@ -1,0 +1,39 @@
+{
+  "tools_vn": [
+    {
+      "title": "HTML sang Image/PDF",
+      "description": "Chuyển đổi HTML thành ảnh hoặc PDF để phục vụ việc tạo báo cáo, cảnh báo kinh doanh",
+      "tags": ["Python"],
+      "link": ""
+    },
+    {
+      "title": "Phân tích cuộc họp",
+      "description": "Phân tích cuộc họp, tóm tắt, giải đáp câu hỏi về cuộc họp với AI",
+      "tags": ["Python", "AI"],
+      "link": ""
+    }
+  ],
+  "tools_en": [
+    {
+      "title": "HTML to Image/PDF",
+      "description": "Convert HTML to images or PDF for creating reports and business alerts",
+      "tags": ["Python"],
+      "link": ""
+    },
+    {
+      "title": "Meeting Analysis",
+      "description": "Analyze meetings, summarize, and answer questions about meetings with AI",
+      "tags": ["Python", "AI"],
+      "link": ""
+    }
+  ],
+  "viewMore_vn": {
+    "text": "Xem thêm →",
+    "link": ""
+  },
+  "viewMore_en": {
+    "text": "View More →",
+    "link": ""
+  }
+}
+

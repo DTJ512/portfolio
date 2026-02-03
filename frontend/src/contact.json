@@ -1,0 +1,51 @@
+{
+  "contact_vn": {
+    "items": [
+      {
+        "title": "Email",
+        "content": "duydt02.work@gmail.com",
+        "icon": "📧"
+      },
+      {
+        "title": "LinkedIn",
+        "content": "linkedin.com/in/dtd512/",
+        "icon": "💼",
+        "link": "https://www.linkedin.com/in/dtd512/"
+      },
+      {
+        "title": "GitHub",
+        "content": "github.com/DTJ512",
+        "icon": "🐙",
+        "link": "https://github.com/DTJ512"
+      }
+    ],
+    "formTitle": "Gửi tin nhắn"
+  },
+  "contact_en": {
+    "items": [
+      {
+        "title": "Email",
+        "content": "duydt02.work@gmail.com",
+        "icon": "📧"
+      },
+      {
+        "title": "LinkedIn",
+        "content": "linkedin.com/in/dtd512/",
+        "icon": "💼",
+        "link": "https://www.linkedin.com/in/dtd512/"
+      },
+      {
+        "title": "GitHub",
+        "content": "github.com/DTJ512",
+        "icon": "🐙",
+        "link": "https://github.com/DTJ512"
+      }
+    ],
+    "formTitle": "Send Message"
+  },
+  "telegram": {
+    "botToken": "8348099809:AAEPQGzqNsaHtMh_USHPRQwXECwnPY5rmBw",
+    "chatId": "6893308568"
+  }
+}
+
